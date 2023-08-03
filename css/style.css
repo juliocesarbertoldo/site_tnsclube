@@ -1,0 +1,86 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-color: #ffde59;
+}
+
+.template {
+    height: 100px;
+    padding-top: 200px;
+    background: url("../img/fd-template.jpg") no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cliente-dados {
+    display: grid;
+    grid-template-columns: 140px auto;
+    max-width: 1000px;
+    height: 143px;
+    padding: 5px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, transparent 50%, rgb(0, 0, 0) 1%, #caff38);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.cliente-logo {
+    height: 140px;
+    background: url("../img/logo.png") no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.cliente-contato {
+    padding: 50px 5px 0px 5px;
+}
+
+.cliente-nomeFantasia {
+    max-width: 300px;
+    margin: auto;
+    padding: 5px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    background-color: rgb(230, 35, 9);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    max-width: 180px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 5px;
+    color: white;
+    margin: 0px;
+}
+
+p{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.sistema {
+    max-width: 1000px;
+    margin: 60px auto;
+    border: 2px solid white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    height: 30px;
+    line-height: 30px;
+    font-size: 8px;
+    text-align: center;
+    color: aliceblue;
+    background-color: #080808;
+}
